@@ -97,7 +97,7 @@ nav a {
 
 .blog,
 .germany-vs-france {
-     border: 1px solid #E8E8E8;
+    border: 1px solid #E8E8E8;
     border-radius: 10px;
     margin: 24px;
 }
@@ -106,7 +106,7 @@ nav a {
     width: 312px;
     height: 175px;
     padding-bottom: 20px;
-    
+
 
 }
 
@@ -124,6 +124,10 @@ nav a {
     font-size: 16px;
     color: rgba(22, 22, 22, 0.7);
 
+}
+
+.special-button {
+    display: none;
 }
 
 /*-----------
@@ -145,10 +149,11 @@ footer {
     color: #B9B9B9;
     padding-top: 50px;
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    margin-bottom:0px;
+    grid-template-columns: repeat(7, 1fr);
+    margin-bottom: 0px;
 }
-.fa-brands{
+
+.fa-brands {
     font-size: 25px;
 }
 
@@ -174,6 +179,7 @@ footer {
     body {
         margin: 0px;
     }
+
     .part-2 {
         padding-top: 10px;
         flex-direction: column;
@@ -201,7 +207,7 @@ footer {
     footer {
         text-align: center;
         width: 100%;
-        
+
     }
 }
 
@@ -213,6 +219,7 @@ footer {
     body {
         margin: 0px;
     }
+
     .part-2 {
         padding-top: 10px;
         flex-direction: column;
@@ -222,6 +229,24 @@ footer {
     .container {
         width: 100%;
         grid-template-columns: repeat(2, 1fr);
-        
     }
+
+    .special-button {
+        display:flex;
+        justify-content:center;
+    }
+
+
+    .button {
+
+        background: #DD0000;
+        border-radius: 5px;
+        color: #FFFFFF;
+        font-size: large;
+        font-weight: 700;
+        padding: 16px 25px;
+        margin-left: 50px;
+
+    }
+
 }
