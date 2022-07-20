@@ -179,9 +179,13 @@ footer {
 
 /*-------For Mobile Devices-------*/
 @media only screen and (max-width:688px) {
+    body {
+        margin: 0px;
+    }
 
     .banner,
-    .container {
+    .container,
+    .more-info {
         width: 100%;
         grid-template-columns: repeat(1, 1fr);
 
@@ -193,18 +197,39 @@ footer {
     }
 
     .banner .banner-image img {
-        width: 233px;
-        height: 245px;
+        width: 100%;
+        height: 100%;
 
     }
 
     footer {
-        width: 375px;
-        height: 412px;
-        
+        text-align: center;
+        width: 100%;
+        /* height:100%; */
+        /* width: 280px;
+        height: 450px; */
+    }
+}
 
+/*-----------For Tablets-----------*/
+
+
+
+@media only screen and (max-width:992px) {
+    body {
+        margin: 0px;
+    }
+
+    .banner,
+    .container {
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-evenly;
     }
 
 
+    footer {
+        text-align: center;
 
+    }
 }
