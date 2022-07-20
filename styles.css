@@ -58,108 +58,116 @@ nav a {
     text-decoration: none;
     color: #161616;
     font-weight: 800;
-    }
-  
+}
 
 
 
-    /* .match-details,.container{
+
+/* .match-details,.container{
     display:grid;
     grid-template-columns: repeat(2,1fr);
 } */
 
-    .match-details {
-        width: 312px;
-        height: 262px;
-        background: #161616;
-        border-radius: 10px;
+.match-details {
+    width: 312px;
+    height: 262px;
+    background: #161616;
+    border-radius: 10px;
 
-    }
+}
 
-    .details {
-        padding: 15px;
-        border-radius: 10px;
-    }
+.details {
+    padding: 15px;
+    border-radius: 10px;
+}
 
-    .details-1,
-    .details-2,
-    .details-3 {
-        background-color: #FFFFFF;
-        padding: 17px;
-        margin: 15px;
-        text-align: center;
-        border-radius: 5px;
-    }
+.details-1,
+.details-2,
+.details-3 {
+    background-color: #FFFFFF;
+    padding: 17px;
+    margin: 15px;
+    text-align: center;
+    border-radius: 5px;
+}
 
-    .color {
-        background-color: #DD0000;
-    
-    }
+.color {
+    background-color: #DD0000;
 
-    .container {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-    }
+}
 
-    .blog {
-        Width: 312px;
-        Height: 362px;
-        border: 1px solid #E8E8E8;
-        border-radius: 10px;
-        margin: 24px;
-    }
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 
-    .blog .thumbnail img {
-        width: 312px;
-        height: 175px;
-        padding-bottom: 20px;
-        ;
+}
 
-    }
+.blog,
+.germany-vs-france {
+    Width: 312px;
+    height: 362px;;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    margin: 24px;
+}
 
-    .transfer {
-        width: 100px;
-        height: 32px;
-        border-radius: 5px;
-    }
+.blog .thumbnail img {
+    width: 312px;
+    height: 175px;
+    padding-bottom: 20px;
+    ;
 
-    .blog-details {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        font-size: 16px;
-        color: rgba(22, 22, 22, 0.7);
+}
+/* -----button--- */
+.transfer {
+    width: 100px;
+    height: 32px;
+    border-radius: 5px;
+}
 
-    }
+.blog-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 16px;
+    color: rgba(22, 22, 22, 0.7);
 
-    /*-----------
+}
+
+/*-----------
 footer
 ----------*/
-    footer {
-        padding: 130px;
-        color: #E8E8E8;
-        text-align: center;
-        background-color: #161616;
-        height: 300px;
+footer {
+    padding: 130px;
+    color: #E8E8E8;
+    text-align: center;
+    background-color: #161616;
+    height: 300px;
 
-    }
+}
 
-    .border {
-        border: 1px solid rgba(255, 255, 255, 0.1);
+.border {
+    border: 1px solid rgba(255, 255, 255, 0.1);
 
-    }
+}
 
-    .more-info {
-        color: #B9B9B9;
-        padding-top: 50px;
-        display: grid;
-        grid-template-columns: repeat(6, 1fr);
-        margin-bottom: none;
-    }
+.more-info {
+    color: #B9B9B9;
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin-bottom: none;
+}
 
-    /* ----------------
+/* ----------------
     upcoming match 
     ----------------- */
-    .time{
-    color:#4D4D4D;
-    }
+.time {
+    color: #4D4D4D;
+}
+
+.germany-vs-france{
+    Height:200px;
+    text-align: center;
+    padding: 50px ;
+}
