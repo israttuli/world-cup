@@ -53,20 +53,33 @@ styles for artical
 .part-2 {
     padding-top: 90px;
 }
+/* .match-details,.container{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+} */
 
 .match-details {
     width: 312px;
-    height: 312px;
+    height: 262px;
     background: #161616;
     border-radius: 10px;
+    
 }
+.details{
+    padding: 15px;
+    border-radius:10px;
+    }
 
-.match-details .details {
+ .details-1,.details-2,.details-3 {
     background-color: #FFFFFF;
-    width: 252px;
-    height: 64px;
-    align-items: center;
-    justify-content: center;
+    padding: 17px;
+    margin:15px; 
+    text-align: center;
+    border-radius:5px;
+}
+.details-3{
+    background-color: #DD0000;
+    color: #FFFFFF;
 }
 
 .container {
