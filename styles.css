@@ -136,7 +136,7 @@ nav a {
 }
 
 /*-----------
-footer
+    footer
 ----------*/
 footer {
     padding: 130px;
@@ -179,25 +179,32 @@ footer {
 
 /*-------For Mobile Devices-------*/
 @media only screen and (max-width:688px) {
-    .banner {
+
+    .banner,
+    .container {
         width: 100%;
         grid-template-columns: repeat(1, 1fr);
+
     }
-    .banner h1{
+
+    .banner h1 {
         font-size: 40px;
         text-align: center;
     }
+
     .banner .banner-image img {
         width: 233px;
         height: 245px;
-    
-    }
 
-    .part-2 {
-        display: none;
     }
 
     footer {
-        display: none
+        width: 375px;
+        height: 412px;
+        
+
     }
+
+
+
 }
