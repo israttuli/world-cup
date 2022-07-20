@@ -106,7 +106,7 @@ nav a {
     width: 312px;
     height: 175px;
     padding-bottom: 20px;
-    ;
+    
 
 }
 
@@ -134,8 +134,6 @@ footer {
     color: #E8E8E8;
     text-align: center;
     background-color: #161616;
-
-
 }
 
 .border {
@@ -149,6 +147,9 @@ footer {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     margin-bottom:0px;
+}
+.fa-brands{
+    font-size: 25px;
 }
 
 /* ----------------
